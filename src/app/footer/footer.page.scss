@@ -1,0 +1,65 @@
+.footer_backgorund {
+    background: #31a286;
+}
+ion-col.footer_icn.md.hydrated {
+    text-align: center;
+}
+ion-label.footer_label.sc-ion-label-md-h.sc-ion-label-md-s.md.hydrated {
+    color: #fff;
+    font-size: 9px;
+}
+.footer_backgorund ul.nav.nav-pills {
+    padding: 9px 3px 0px;
+}
+.footer_backgorund li.nav-item {
+    width: 25%;
+    text-align: center;
+    padding-top: 11px;
+    border-top: 4px solid transparent;
+}
+.footer_backgorund ul li a img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    height: 20px;
+    width: 20px;
+}
+
+.footer_backgorund ul li a {
+    color: #89d0c2;
+    font-size: 8px;
+    padding-top: 0px;
+}
+.footer_backgorund ul li.active a {
+    background: transparent !important;
+    border: none !important;
+    color:#fff;
+}
+.footer_backgorund ul li.active {
+    border-top: 4px solid #4befc2;
+}
+.footer_backgorund ul li.active a img {
+    opacity: 1;
+}
+
+.footer_backgorund ul li a img {
+    opacity: .5;
+    margin-bottom: 5px;
+}
+
+  .testing{
+    --background: auto;
+    background: #31a286;
+    color: #fff;
+  }
+  .testing .ios.title-default.hydrated {
+    position: inherit !important;
+    width: 25% !important;
+    float: left;
+    padding: inherit;
+    font-size: 12px;
+}
+.footer_main img {
+    display: block;
+    margin: auto;
+  }

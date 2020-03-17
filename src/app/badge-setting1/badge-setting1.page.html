@@ -1,0 +1,372 @@
+  <ion-content>
+    <ion-header>
+      <ion-toolbar>
+        <div class="top-header">
+          <img class="back-arrow" src="../../assets/images/Symbol 135 - 3.png" [routerLink]="['/setting']" >
+
+          <h3>Badge Setting</h3>
+          <img class="print_img" src="../../assets/icon/print.png">
+        </div>
+
+        <div class="">
+        </div>
+
+      </ion-toolbar>
+    </ion-header>
+    
+    <div class="overlay_box">
+        <ion-card class="card_box_msg">
+          <div class="badge_box_main">
+            <div class="badge_box">
+              <ion-label class="badege_txt">Badge Printing from the app </ion-label>
+            </div>
+            <div class="message_form">
+              <div class="input-label">
+                <ion-toggle></ion-toggle>
+              </div>
+            </div>
+          </div>
+
+          <div class="badge_box_main">
+            <div class="badge_box">
+              <ion-label class="badege_txt">Badge Paper Size</ion-label>
+            </div>
+            <div class="message_form">
+              <div class="input-label">
+                <select class="message_select" onfocus='this.size=10;' onblur='this.size=1;'
+                  onchange='this.size=1; this.blur();'>
+                  <option>29 mm x 90 mm</option>
+                  <option>39 mm x 48 mm</option>
+                  <option>62 mm x 29 mm</option>
+                  <option>62 mm x 90 mm</option>
+                  <option>62 mm x 90 mm</option>
+                  <option selected>50 mm </option>
+                  <option selected>54 mm </option>
+                  <option selected>62 mm </option>
+                  <option>80 mm x 100 mm</option>
+                  <option>101.6 mm x 76.2 mm</option>
+                  <option>76.2 mm x 101.6 mm</option>
+                  <option>A6 (Portrait)</option>
+                  <option>A6 (Landscape)</option>
+                  <option>A5 (Portrait)</option>
+                  <option>A5 (Landscape)</option>
+                  <option>A4 (Portrait)</option>
+                  <option>A4 (Landscape)</option>
+
+
+                  <option>Option 3</option>
+                </select>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="badge_box_main">
+            <div class="message_form">
+              <div class="input-label">
+                <div class="badge_box">
+              <ion-label class="badege_txt">QR code on the badge</ion-label>
+            </div>
+                <ion-toggle></ion-toggle>
+              </div>
+            </div>
+          
+            <div class="badge_box">
+              <ion-label class="badege_txt1">QR code Information</ion-label>
+            </div>
+            <div class="message_form">
+              <div class="input-label">
+                <select class="message_select " onfocus='this.size=10;' onblur='this.size=1;'
+                  onchange='this.size=1; this.blur();'>
+                  <option>Name</option>
+                  <option>Organisation</option>
+                  <option>Email</option>
+                  <option>Mobile</option>
+                  <option selected>ID </option>
+                  <option>NRIC/FIN</option>
+                  <option>Remark1</option>
+                  <option>Remark2</option>
+                  <option>Remark3</option>
+                </select>
+              </div>
+            </div>
+            <div class="badge_box">
+              <ion-label class="badege_txt1">Font-Family</ion-label>
+            </div>
+            <div class="message_form">
+              <div class="input-label">
+                <select class="message_select " onfocus='this.size=10;' onblur='this.size=1;'
+                  onchange='this.size=1; this.blur();'>
+                  <option>Avenir</option>
+                  <option selected>Arial </option>
+                  <option>Ayuthaya</option>
+                  <option>Courier</option>
+                  <option>Century Gothic</option>
+                  <option>Didot</option>
+                  <option>Helivetica</option>
+                  <option>Helivetica</option>
+                  <option><strong>Impact</strong></option>
+                  <option>Lato</option>
+                  <option>Lucida Grande</option>
+                  <option>Rockwell</option>
+                  <option>Times New Roman</option>
+                  <option>Trebuchet MS</option>
+                  <option>Verdana</option>
+                </select>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="badge_box_main">
+            <div class="badge_box1">
+              <ion-label class="badege_txt2">Badge Layout </ion-label>
+            </div>
+            <div class="label_box">
+              <div class="radio_btn">
+                <ion-radio value="java"></ion-radio>
+              </div>
+              <div class="text_qr_box">
+                <ion-label>Text</ion-label>
+                <img src="../../assets/icon/qr-code_Gray.png" class="qr_img">
+              </div>
+            </div>
+            <div class="label_box">
+              <div class="radio_btn">
+                <ion-radio value="java"></ion-radio>
+              </div>
+              <div class="text_qr_box1">
+                <img src="../../assets/icon/qr-code_Gray.png" class="qr_img1">
+                <ion-label class="qr_box">Text</ion-label>
+              </div>
+            </div>
+
+            <div class="label_box2">
+              <div class="radio_btn2">
+                <ion-radio value="java"></ion-radio>
+              </div>
+              <div class="text_qr_box2">
+                <div class="inner_box">
+
+                  <ion-label class="logn_box">Text</ion-label>
+                  <img src="../../assets/icon/qr-code_Gray.png" class="qr_img2">
+                </div>
+              </div>
+            </div>
+            <div class="label_box2">
+              <div class="radio_btn2">
+                <ion-radio value="java"></ion-radio>
+              </div>
+              <div class="text_qr_box2">
+                <div class="inner_box">
+
+                  <ion-label class="logn_box">Text</ion-label>
+                  <img src="../../assets/icon/qr-code_Gray.png" class="qr_img2">
+                </div>
+              </div>
+            </div>
+
+            <div class="badge_box">
+              <ion-label class="badege_txt">Text Alignment</ion-label>
+            </div>
+            <div class="message_form">
+              <div class="input-label">
+                <select class="message_select ">
+                  <option>Option 1</option>
+                  <option selected>left </option>
+                  <option>Option 3</option>
+                </select>
+              </div>
+            </div>
+
+          </div>
+          
+          <div class="badge_box_main">
+            <div class="badge_box_info">
+              <ion-label class="badege_txt1">1st Information</ion-label>
+            </div>  
+            <div class="message_form input-label_info_slect">
+              <div class="">
+                <select class="message_select2 " onfocus='this.size=10;' onblur='this.size=1;'
+                  onchange='this.size=1; this.blur();'>
+                  <option>Avenir</option>
+                  <option selected>Name </option>
+                  <option>Ayuthaya</option>
+                  <option>Courier</option>
+                  <option>Century Gothic</option>
+                  <option>Didot</option>
+                  <option>Helivetica</option>
+                  <option>Helivetica</option>
+                  <option><strong>Impact</strong></option>
+                  <option>Lato</option>
+                  <option>Lucida Grande</option>
+                  <option>Rockwell</option>
+                  <option>Times New Roman</option>
+                  <option>Trebuchet MS</option>
+                  <option>Verdana</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="badge_box">
+              <ion-label class="badege_txt">Font Size </ion-label>
+            </div>
+            <div class="message_form">
+              <div class="input-label">
+                <select class="message_select ">
+                  <option>Option 1</option>
+                  <option selected>18 px </option>
+                  <option>Option 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="bold_box">
+            <ion-label class="bold ">Bold </ion-label>
+              <ion-toggle class="toongle_bold"></ion-toggle>
+          </div>
+          </div>
+
+
+          <div class="badge_box_main">
+            <div class="badge_box_info">
+              <ion-label class="badege_txt1">2nd Information</ion-label>
+            </div>  
+            <div class="message_form input-label_info_slect">
+              <div class="">
+                <select class="message_select2 " onfocus='this.size=10;' onblur='this.size=1;'
+                  onchange='this.size=1; this.blur();'>
+                  <option>Avenir</option>
+                  <option selected>Organisation </option>
+                  <option>Ayuthaya</option>
+                  <option>Courier</option>
+                  <option>Century Gothic</option>
+                  <option>Didot</option>
+                  <option>Helivetica</option>
+                  <option>Helivetica</option>
+                  <option><strong>Impact</strong></option>
+                  <option>Lato</option>
+                  <option>Lucida Grande</option>
+                  <option>Rockwell</option>
+                  <option>Times New Roman</option>
+                  <option>Trebuchet MS</option>
+                  <option>Verdana</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="badge_box">
+              <ion-label class="badege_txt">Font Size </ion-label>
+            </div>
+            <div class="message_form">
+              <div class="input-label">
+                <select class="message_select ">
+                  <option>Option 1</option>
+                  <option selected>12 px </option>
+                  <option>Option 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="bold_box">
+            <ion-label class="bold ">Bold </ion-label>
+              <ion-toggle class="toongle_bold"></ion-toggle>
+          </div>
+          </div>
+
+          <div class="badge_box_main">
+            <div class="badge_box_info">
+              <ion-label class="badege_txt1">3rd Information</ion-label>
+            </div>  
+            <div class="message_form input-label_info_slect">
+              <div class="">
+                <select class="message_select2 " onfocus='this.size=10;' onblur='this.size=1;'
+                  onchange='this.size=1; this.blur();'>
+                  <option>Avenir</option>
+                  <option selected>Desingation </option>
+                  <option>Ayuthaya</option>
+                  <option>Courier</option>
+                  <option>Century Gothic</option>
+                  <option>Didot</option>
+                  <option>Helivetica</option>
+                  <option>Helivetica</option>
+                  <option><strong>Impact</strong></option>
+                  <option>Lato</option>
+                  <option>Lucida Grande</option>
+                  <option>Rockwell</option>
+                  <option>Times New Roman</option>
+                  <option>Trebuchet MS</option>
+                  <option>Verdana</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="badge_box">
+              <ion-label class="badege_txt">Font Size </ion-label>
+            </div>
+            <div class="message_form">
+              <div class="input-label">
+                <select class="message_select ">
+                  <option>Option 1</option>
+                  <option selected>12 px </option>
+                  <option>Option 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="bold_box">
+            <ion-label class="bold ">Bold </ion-label>
+              <ion-toggle class="toongle_bold"></ion-toggle>
+          </div>
+          </div>
+
+          <div class="badge_box_main">
+            <div class="badge_box_info">
+              <ion-label class="badege_txt1">4th Information</ion-label>
+            </div>  
+            <div class="message_form input-label_info_slect">
+              <div class="">
+                <select class="message_select2 " onfocus='this.size=10;' onblur='this.size=1;'
+                  onchange='this.size=1; this.blur();'>
+                  <option>Avenir</option>
+                  <option selected>Not use </option>
+                  <option>Ayuthaya</option>
+                  <option>Courier</option>
+                  <option>Century Gothic</option>
+                  <option>Didot</option>
+                  <option>Helivetica</option>
+                  <option>Helivetica</option>
+                  <option><strong>Impact</strong></option>
+                  <option>Lato</option>
+                  <option>Lucida Grande</option>
+                  <option>Rockwell</option>
+                  <option>Times New Roman</option>
+                  <option>Trebuchet MS</option>
+                  <option>Verdana</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="badge_box">
+              <ion-label class="badege_txt">Font Size </ion-label>
+            </div>
+            <div class="message_form">
+              <div class="input-label">
+                <select class="message_select ">
+                  <option>Option 1</option>
+                  <option selected>12 px </option>
+                  <option>Option 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="bold_box">
+            <ion-label class="bold ">Bold </ion-label>
+              <ion-toggle class="toongle_bold"></ion-toggle>
+          </div>
+          </div>
+
+          <ion-button class="print_btn" shape="round"[routerLink]="['/printer-option']"  >Test Printing <img  class= "print_img" src="../../assets/icon/print.png" ></ion-button>  
+          
+        </ion-card>
+    </div>
+    
+  </ion-content>
+<app-footer></app-footer>

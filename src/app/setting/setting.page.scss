@@ -1,0 +1,256 @@
+.in-toolbar{
+    --background: auto;
+    background-image: url('../../assets/icon/Mask_Group2.png');
+    border-bottom-left-radius: 54px;
+    border-bottom-right-radius: 54px;
+    text-align: center;
+    padding: 20px 0px 119px 15px;
+    color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.top-header h3 {
+    font-weight: normal;
+    font-size: 23px;
+}
+img.back-arrow {
+    float: left;
+}
+p.artioport {
+    margin: 0px;
+}
+p.date {
+    font-size: 12px;
+}
+.dashboard1 {
+    // position: absolute;
+    top: 140px;
+    z-index: 9999;
+    width: 90%;
+    margin: auto !important;
+    left: 5%;
+}
+.checkin {
+    padding: 20px 10px 30px;
+}
+.loader_div  {
+    float: left;
+    width: 30%;
+}
+img.loader {
+    width: 70px;
+}
+.right_load {
+    float: left;
+    width: 70%;
+}
+.check-iin {
+    color: #3a9da0;
+}
+.box1_txt{
+    font-size: xx-large;
+    color: #34a5a4;
+    
+}
+.box2grid {
+    box-shadow: 0 -3em 3em rgba(0, 0, 0, 0.12), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.39);
+    padding: 20px 21px 19px;
+}
+.waalk_txt{
+    color: #34a2a5;
+    margin-left: 10px;
+    vertical-align: sub;
+    font-size: 13px;
+
+}
+.box1_txt {
+    float: right;
+    padding-right: 30px;
+}
+.number_box span {
+    // position: absolute;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background: #e7b000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-weight: bold;
+    top: 7px;
+}
+.number_box{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-top: 10px;
+}
+.number_box img {
+    padding-top: 11px;
+}
+ion-label.box1_txt2 {
+    float: right;
+    padding-right: 30px;
+    color: #34a5a4;
+    font-size: 20px;
+    font-weight: bold;
+}
+.number_box.two_colm span {
+    color: #fff;
+    font-weight: bold;
+    bottom: -20px;
+    top: auto;
+}
+.load {
+    display: inline-block;
+    position: relative;
+}
+.loader_div span {
+    // position: absolute;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background: #e7b000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-weight: bold;
+    top: 7px;
+}
+
+.load{
+    display: inline-block;
+    position: relative;
+}
+
+
+span.number_bix2 {
+    // position: absolute;
+    // right: 0px;
+    width: 30px;
+    height: 30px;
+    background: #e7b000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-weight: bold;
+    top: 7px;
+}
+.date {
+    float: right;
+    margin-right: 33px;
+}
+img.rectangle {
+    padding-top: 14px;
+    width: 20px;
+}
+img.graph_img {
+    width: 63%;
+    margin-left: 42px;
+    height: 91%;
+}
+.graph_box {
+    height: 23%;
+}
+.graph_value {
+    padding: 0px 0px 0px 37px;
+}
+h6.graph_dynamic {
+    margin-left: -28px;
+    font-size: 12px;
+    margin-top: 2px;
+    color: #31a286;
+}
+h6.graph_dynamic1 {
+    margin-left: 4px;
+    font-size: 12px;
+    margin-top: 3px;
+    color: #31a286;
+}
+h6.graph_dynamic2 {
+    margin-left: -48px;
+    font-size: 12px;
+    margin-top: 2px;
+    color: #31a286;
+}
+h6.graph_dynamic3 {
+    margin-left: -66px;
+    font-size: 12px;
+    margin-top: 2px;
+    color: #31a286;
+}
+h6.graph_dynamic4 {
+    margin-left: -82px;
+    font-size: 12px;
+    margin-top: 2px;
+    color: #31a286;
+}
+.ion-card {
+    box-shadow: 0px 5px 35px #ccc;
+
+}
+
+.card3 {
+    /* margin-top: 75px; */
+    padding: 0px 16px 23px;
+}
+.break_card {
+    padding: 0px 16px 23px;
+}
+.check_in_box {
+    top: 98px;
+    z-index: 9999;
+    width: 90%;
+    margin: auto !important;
+    left: 5%;
+    /* padding-bottom: 4px; */
+}
+img.check_in_img {
+    float: left;
+    padding-left: 20px;
+}
+.check_in_box ion-row.box1 {
+   
+    padding: 10px 8px 12px;
+
+}
+img.bedge_img{
+    width: 31px;
+}
+    
+img.walk_in_img {   
+    width: 23px;
+}
+img.self_img {
+    width: 23px;
+}
+.ion-header {
+    position: unset;
+}
+img.seeting_img {
+    width: 31px;
+}
+.new_participent_background {
+    --background: auto;
+    
+    background: #f2fbfd;
+    }
+
+   .header-md:after {
+   
+  background-image: none !important; 
+}
+.Setting_box{
+box-shadow: 1px 3px 29px 3px #00000030;
+    margin-bottom: 24px;
+
+}
+
+
+.top-header {
+    margin-top: 25px;
+}

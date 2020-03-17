@@ -1,0 +1,99 @@
+ion-icon.decrement_icn.md.hydrated ,.add_icn.md.hydrated  {
+    color:#5197cb;
+}   
+.decrement_btn {
+    float: right;
+}
+ion-button.md.button.button-solid.ion-activatable.ion-focusable.hydrated {
+        --background: auto;
+        border: 1px solid   #5197cb;
+            height: 26px;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+ion-button.btn_one.md.button.button-solid.ion-activatable.ion-focusable.hydrated {
+        border-left: 1px solid  #5197cb;
+        border-top: 1px solid  #5197cb;
+        border-bottom: 1px solid  #5197cb;
+        border-right: 0px solid  #5197cb;
+          margin-right: 0px;
+
+}
+ion-button.btn_two.md.button.button-solid.ion-activatable.ion-focusable.hydrated {
+   border: 1px solid  #5197cb;
+}
+ion-card.first_section.md.hydrated {
+    border-top: 15px solid #317abd !important;
+    padding-top: 10px;
+}
+ion-row.header_area.md.hydrated {
+    padding: 0 10px 0 10px;
+}
+ion-row.header_area.md.hydrated .cancel_head p {
+    color: #80b3d9;
+    font-size: 16px;
+    font-weight: 500;
+}
+ion-row.header_area.md.hydrated .print_head p{
+    font-size: 16px;
+    font-weight: 500;
+}
+ion-row.header_area.md.hydrated .printer_head p{
+      font-size: 14px;
+    font-weight: 600;
+    color: #585858;
+}
+ion-card.second_section.md.hydrated, .first_section.md.hydrated{
+    width: 100%;
+    margin:0px;
+    border: 1px solid #bababa; 
+}
+.code_sec {
+        padding-bottom: 50px;
+    padding-top: 50px;
+}
+ion-card.second_section.md.hydrated {
+    border: 1px solid #bababa;   
+    margin: 55px 0px 0px 0px;
+    padding: 0 10px 0 10px;
+}
+ion-content.md.hydrated {
+    --background: #ededed;
+}
+ion-card.third_section.md.hydrated {
+    width: 80%;
+    margin: 100px auto;
+    border: 1px solid #707070;
+    padding: 0 10px 0 10px;
+}
+.content_area p {
+    color: #555;    
+    font-size: 14px;
+}
+.content_area h2 {
+    color: #555;
+    font-size: 20px;
+}
+.print_head {
+    float: right;    
+    color: #9ea1a28c;
+}
+.select_option {
+    float: right;    
+}
+img.arrow_icn {
+    width: 14px;
+}
+ion-label.option_print.sc-ion-label-md-h.sc-ion-label-md-s.md.hydrated {
+    padding-right: 10px;
+    color: #b5b5b5;
+}
+ion-row.second_area.md.hydrated {
+    border-bottom: 1px solid #e6e6e6;
+}
+.printing_sec {
+    color: #707070;
+}
+ion-card.second_section.md.hydrated {
+    box-shadow: none;
+}

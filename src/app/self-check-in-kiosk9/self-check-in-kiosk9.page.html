@@ -1,0 +1,42 @@
+<ion-content>
+  <div class="main_bg">
+    <ion-header>
+      <ion-toolbar>
+        <div class="top-header">
+          <ion-row>
+            <ion-col size="2"><img class="back-arrow" src="../../assets/images/Symbol 135 - 3.png"></ion-col>
+          </ion-row>
+        </div>
+      </ion-toolbar>
+    </ion-header>
+    <ion-row class="heading_sec">
+      <h2>Walk-in Registration</h2>
+    </ion-row>
+    <ion-row class="second_section">
+      <ion-col>
+        <div class="first_name">
+        <ion-label>
+          <div class="last_name_sec">
+          <img class="user_icn" src="../../assets/icon/ic_business_24px_tab.png">
+          Organisation
+        </div>
+          <ion-input class="inpt_txt" value="">
+          </ion-input>
+        </ion-label>
+      </div>
+      </ion-col>      
+    </ion-row>
+    <ion-row class="third_section">
+      <ion-col>
+        <div class="btn_sec"[routerLink]="['/self-check-in-kiosk10']" >
+          <p class="walk_btn">
+           Next<span><img class="btn-arrow" src="../../assets/images/Symbol 135 - 3.png"></span> 
+          </p>         
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <img class="screen_lock" src="../../assets/images/Lock.png">
+    </ion-row>
+  </div>
+</ion-content>

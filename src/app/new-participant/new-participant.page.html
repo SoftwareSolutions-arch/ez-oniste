@@ -1,0 +1,205 @@
+
+
+<ion-content class="new_participent_background">
+  <ion-header>
+    <ion-toolbar class="new_participant_header">
+  <div class="top-header">
+    <img class="back-arrow" src="../../assets/images/Symbol 135 - 3.png">
+   
+        <p class="header_heading">Add New Participant 
+  <img class="plus" src="../../assets/icon/Symbol 208 – 1.png">
+  
+        </p>
+      
+  
+      </div>
+      <div class="">
+        </div>
+    </ion-toolbar>
+  </ion-header>
+  <ion-grid>
+    <ion-row class="new_particpant_field">
+      <ion-col col-6 class="fn">
+       <ion-label >
+          <img class="user_icn" src="../../assets/icon/Symbol 6 – 2.png">
+          First Name
+          <ion-input  class="inpt_txt" value="">
+          </ion-input>
+
+
+        </ion-label>
+      </ion-col>
+      <ion-col col-6 class="fn">
+        <ion-label>
+        Last Name
+        <ion-input  class="inpt_txt" value="">
+        </ion-input>
+
+      </ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row class="new_particpant_field">
+      <ion-col col-12 class="fn">
+        <ion-label>
+           <img class="user_icn" src="../../assets/icon/ic_business_24px.png">
+           Organisation
+           <ion-input  class="inpt_txt" value="">
+           </ion-input>
+
+         </ion-label>
+       </ion-col>         
+    </ion-row>
+    <ion-row class="new_particpant_field">
+      <ion-col col-12 class="fn">
+        <ion-label>
+           <img class="user_icn" src="../../assets/icon/ic_assignment_ind_24px.png">
+           Designtion
+           <ion-input  class="inpt_txt" value="">
+</ion-input>
+         </ion-label>
+       </ion-col>         
+    </ion-row>
+    <ion-row class="new_particpant_field">
+      <ion-col col-12 class="fn">
+        <ion-label>
+           <img class="user_icn" src="../../assets/icon/Symbol 49 – 1.png">
+           Email
+           <ion-input  class="inpt_txt" value="">
+           </ion-input>
+         </ion-label>
+       </ion-col>         
+    </ion-row>
+    <ion-row class="new_particpant_field"> 
+      <ion-col col-12 class="fn">
+        <ion-label>
+           <img class="user_icn" src="../../assets/icon/Phone.png">
+           Mobile
+           <ion-input  class="inpt_txt" value="">
+           </ion-input>
+         </ion-label>
+       </ion-col>         
+    </ion-row>
+    <ion-row class="new_particpant_field" >
+      <ion-col col-12 class="fn">
+        <ion-label>
+           <img class="user_icn" src="../../assets/icon/qr-code_Gray.png">
+           ID
+           <ion-input  class="inpt_txt" value="">
+           </ion-input>
+         </ion-label>
+       </ion-col>         
+    </ion-row>
+    <ion-row class="new_particpant_field">
+      <ion-col col-12 class="fn">
+        <ion-label>
+           <img class="user_icn" src="../../assets/icon/ic_assignment_24px.png">
+           NRIC/FIN
+           <ion-input  class="inpt_txt" value="">
+           </ion-input>
+         </ion-label>
+       </ion-col>         
+    </ion-row>
+    <ion-row class="new_particpant_field">
+      <ion-col col-12 class="fn">
+        <ion-label>
+           <img class="user_icn" src="../../assets/icon/ic_assignment_24px.png">
+           Remarks1
+           <ion-input  class="inpt_txt" value="">
+           </ion-input>
+         </ion-label>
+       </ion-col>         
+    </ion-row>
+    <ion-row class="new_particpant_field">
+      <ion-col col-12 class="fn">
+        <ion-label>
+           <img class="user_icn" src="../../assets/icon/ic_assignment_24px.png">
+           Remarks2
+           <ion-input  class="inpt_txt" value="">
+           </ion-input>
+         </ion-label>
+       </ion-col>         
+    </ion-row>
+    <ion-row class="new_particpant_field">
+      <ion-col col-12 class="fn">
+        <ion-label>
+           <img class="user_icn" src="../../assets/icon/ic_assignment_24px.png">
+           Remarks3
+           <ion-input  class="inpt_txt" value="">
+           </ion-input>
+         </ion-label>
+       </ion-col>         
+    </ion-row>
+  </ion-grid>
+<div class="button2">
+   <button type="button" class="popup_btn" data-toggle="modal" data-target="#myModal">
+  <ion-button class="Save_btn" shape="round">Save & Check-in </ion-button>  
+  </button>
+  <ion-button class="Save_btn1  " shape="round" >Just Save</ion-button>  
+</div>
+<div class="pop_up_img"></div>
+
+<!-- Trigger the modal with a button -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+ <!-- The Modal -->
+  <div [hidden]=checkinpopup class="modal fade" id="myModal">
+    <div class="modal-dialog1 modal-lg">
+      <div class="modal-content_new">
+
+        <!-- Modal Header -->
+        <img class="check_new" src="../../assets/icon/Checkbox.png">
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          Check-in completed !
+
+        </div>
+
+        <div class="modal-body1">
+          <p class="para1">Allan Lim</p>
+          <p class="para2">ZZZ Technology Inc. </p>
+          <p class="para3">coo </p>
+
+
+        </div>
+        <p class="large_font_para">Welcome!Allan Lim ! Your table is table 2.</p>
+        <div class="btn-ok">
+          <!-- Button trigger modal -->
+          <button  class="btn_new" type="button" (click)="pop();" data-toggle="modal"
+            data-target="#basicExampleModal">
+            Ok
+          </button>
+
+          <!-- Modal -->
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- modal 1  end -->
+   <app-footer></app-footer>
+</ion-content>

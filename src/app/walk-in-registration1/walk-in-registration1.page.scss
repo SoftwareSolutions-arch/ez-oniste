@@ -1,0 +1,135 @@
+.top-header h3 {
+    font-weight: normal;
+    font-size: 23px;
+    margin: 0 auto;
+    display: inline-block;
+}
+img.back-arrow {
+    float: left;
+}
+.in-toolbar.md.hydrated {
+    --background: auto;
+    background-image: url('../../assets/images/MaskGroup\ _1.png');
+    border-bottom-left-radius: 54px;
+    border-bottom-right-radius: 54px;
+    text-align: center;
+    padding: 20px 15px 145px 15px;
+    color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+p.heading {
+    color: #000000b0;
+        font-size: 13px;
+
+}
+.check_in_box {
+    position: absolute;
+    top: 119px;
+    z-index: 9999;
+    width: 90%;
+    margin: auto !important;
+    left: 5%;
+    
+}
+
+.card_box_msg {
+    position: absolute;
+    top: 145px;
+    z-index: 9999;
+    width: 90%;
+    margin: auto !important;
+    left: 5%;
+}
+
+.card2 {
+    padding: 0px 0px 23px;
+
+}
+.box1 {
+    padding: 15px;
+}
+.inpt_txt {
+    border-bottom: 1px solid #9f9f9f;
+}
+.common_input {
+    display: block;
+    margin: 25px 0px 15px 0px;
+}
+
+.card_section1 {
+    box-shadow: 0px 15px 17px 2px #d2d2d2;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+select.message_select {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    padding: 0px 3px;
+}
+.sc-ion-input-md-h{
+    --padding-start: 0px !important;
+    padding-left: 0px;
+}
+
+.card_section {
+    box-shadow: 0px 6px 25px 9px #d2d2d2;
+    border-radius: 10px;
+}
+.input_first_section {
+    margin: 0px 16px;
+}
+.label_name {
+    padding-left: 7px;
+}
+.edit_option{
+    border-bottom: 1px solid #9d9d9d;
+    width: 60%;
+}
+.input_third_section {
+    padding-top: 20px;
+}
+.walk_btn{
+    --background: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #6d6d6d;
+    border: 1px solid #a0a0a0;
+    padding: 5px 10px 5px 44px;
+    width: auto;
+    display: inline-block;
+    // background-image: url('../../assets/icon/add.png');
+    background-repeat: no-repeat;
+    background-position: 9%;
+    background-size: 10%;
+
+}
+
+img.edit_icn {  
+    width: 20px;   
+    position: absolute;
+    top: 13px;
+    right: 0;
+    margin: 0px;
+}
+
+.edit_icon {
+    position: relative;
+}
+img.edit_option_icn {  
+    width: 20px;   
+    position: absolute;
+    top: 13px;
+    left: 145px;
+    margin: 0px;
+}
+.add_icn{
+    color: #6d6d6d;
+    margin-right: 13px;
+    font-size: 22px;
+}
+.btn_sec {
+    padding-top: 20px;
+}

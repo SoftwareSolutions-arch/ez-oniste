@@ -1,0 +1,228 @@
+<ion-header class="header_self">
+  <ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="self_backgorund">
+
+  <div class="para_self">
+    <ion-grid>
+      <ion-row>
+        <ion-col col-6>
+          <p class="slef_para">It will scan automatically.</p>
+          <p class="para1"> Point the camera at the QR code.</p>
+          <button type="button" class="popup_btn" data-toggle="modal" data-target="#myModal">
+            <img class="qr_code" src="../../assets/icon/Group_938.png">
+          </button>
+          <p class="para2"> If you cannot scan,please try those;</p>
+          <div class="list_item">
+            <ol class="list">
+              <li class="list1">Make the display brighter</li>
+              <li class="list1">Enlarge the QR code size</li>
+            </ol>
+          </div>
+        </ion-col>
+
+        <ion-col col-6 class="secnd_section">
+          <ion-button class="manual" shape="round" [routerLink]="['/search']">
+            <img class="searc" src="../../assets/icon/Symbol 62 – 19.png">
+            <h5 class="wal-in">Manual Search</h5>
+          </ion-button>
+          <div class="btn2"  [routerLink]="['/self-check-in-kiosk']">
+            <ion-button class="manual" shape="round">
+              <img class="searc" src="../../assets/icon/whitic_directions_walk_24px.png">
+              <h5 class="wal-in">Walk-in Registration</h5>
+            </ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <!-- The Modal -->
+  <div [hidden]=checkinpopup class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <img class="check" src="../../assets/icon/Checkbox.png">
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          Check-in completed !
+
+        </div>
+
+        <div class="modal-body1">
+          <p class="para1">Allan Lim</p>
+          <p class="para2">ZZZ Technology Inc. </p>
+          <p class="para3">coo </p>
+
+
+        </div>
+        <p class="large_font_para">Welcome!Allan Lim ! Your table is table 2.</p>
+        <div class="btn-ok">
+          <!-- Button trigger modal -->
+          <button type="button" (click)="pop();" class="btn_ok_btn" data-toggle="modal"
+            data-target="#basicExampleModal">
+            Ok
+          </button>
+
+          <!-- Modal -->
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- modal 1  end -->
+  <!-- modal 2  start -->
+  <div [hidden]=alreadycheckinpopup class="modal fade" id="basicExampleModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- Modal Header -->
+        <img class="check" src="../../assets/icon/Symbol 71 – 4.png">
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          You already check-in
+
+        </div>
+        <p class="date">at 21:04 on 01//02/2020</p>
+        <div class="modal-body1">
+          <p class="para1">Allan Tanekura </p>
+          <p class="para2">Actioport Pte. Ltd. </p>
+          <p class="para3">CEO </p>
+          <p class="para5">If you have a problem, please contact out staff </p>
+
+        </div>
+        <div class="btn-ok">
+          <!-- Button trigger modal -->
+          <button type="button" (click)="pop1();" class="btn_ok_btn" data-toggle="modal"
+            data-target="#basicExampleModal3">
+            Close
+          </button>
+
+          <!-- Modal -->
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- modal 2 end -->
+
+  <!-- modal 3  start -->
+  <div [hidden]=notfoundpopup class="modal fade" id="basicExampleModal3">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- Modal Header -->
+        <img class="check" src="../../assets/icon/Symbol 71 – 4.png">
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          Not Found !
+
+        </div>
+
+        <div class="modal-body1">
+          <p class="self_txt">We are unable to find your record. </p>
+
+
+        </div>
+        <div class="btn-ok">
+          <!-- Button trigger modal -->
+          <button type="button" (click)="pop2();" class="btn_ok_btn" data-toggle="modal"
+            data-target="#basicExampleModal">
+            Close
+          </button>
+
+          <!-- Modal -->
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <ion-row>
+    <button type="button" class="popup_btn" data-toggle="modal" data-target="#basicExampleModal4">
+
+      <img class="screen_lock" src="../../assets/images/Lock.png" (click)="black_poup()">
+    </button>
+  </ion-row>
+  <!-- modal 3 end -->
+
+
+  <!-- Model 4 start -->
+  <div [hidden]=checkinpopup class="modal fade" id="basicExampleModal4">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="check"></div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          Please enter the ID & Password
+
+        </div>
+
+        <div class="modal-bodyblck">
+          <div class="row">
+            <!-- <ion-col col-6>
+              <img class="mail4" src="../../assets/icon/Mail.png">
+            </ion-col> -->
+            <!-- <ion-col col-6> -->
+            <img class="mail4" src="../../assets/icon/Mail.png">
+
+            <ion-input class="email4" type="text" value="johndoe@mail.com"></ion-input>
+            <!-- </ion-col> -->
+          </div>
+        </div>
+        <div class="modal-bodyblck">
+          <div class="row">
+            <!-- <ion-col col-6>
+              <img class="mail4" src="../../assets/icon/Mail.png">
+            </ion-col> -->
+            <!-- <ion-col col-6> -->
+            <img class="mail4" src="../../assets/icon/Lock.png">
+
+            <ion-input class="email4" type="password" value="12345"></ion-input>
+            <!-- </ion-col> -->
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="btn-ok4">
+              <!-- Button trigger modal -->
+              <div class="check_btn">
+                <button type="button" (click)="pop();" class="btn_cnfrm1" data-toggle="modal"
+                  data-target="#basicExampleModal4">
+                  Back </button>
+              </div>
+              <div class="check_btn">
+                <button type="button" (click)="pop();" class="btn_cnfrm" data-toggle="modal"
+                  data-target="#basicExampleModal4">
+                  Confirm
+                </button>
+              </div>
+            <!-- Modal -->
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- model 4 end -->
+</ion-content>

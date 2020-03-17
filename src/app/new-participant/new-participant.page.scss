@@ -1,0 +1,157 @@
+img.user_icn {
+    width: 15px;
+    margin-right: 22px;
+    margin: 0px 13px -4px 0px;
+}
+.ion-label {
+    vertical-align: sub;
+   color: #4b4e4ee0;
+    font-size: 10px;
+ 
+}
+img.edit_icn {
+    float: right;
+    width: 12%;
+    margin-top: -29px;
+}
+ion-input.inpt_txt {
+   font-size: 11px;
+    border-bottom: 1px solid #bbc1c2;
+    color: #00000091;
+
+}
+.ion-col {
+    margin-right: 21px;
+    border-bottom: 1px solid #9E9E9E;
+
+}
+img.edit_icn2 {
+    float: right;
+    width: 6%;
+    margin-top: -29px;
+}
+.ion-label {
+    vertical-align: sub;
+    color: #0000009c;
+}
+
+/** header section */
+
+.new_participant_header {
+    background-image: url(/assets/images/Mask_Group_2.png);
+    text-align: center;
+    padding: 37px 9px 47px 9px;
+    color: #fff;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    --background: auto;
+}
+.top-header h3 {
+    font-weight: normal;
+    font-size: 23px;
+}
+img.back-arrow {
+    float: left;
+        margin-top: 6px;
+
+}
+
+.top-header h6 {
+    font-size: 12px;
+}
+img.plus {
+    width: 31px;
+    float: right;
+}
+p.header_heading {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -1px !important;
+}
+ion-button.save_btn{
+    --background: auto;
+}
+.ion-button{
+    --background: auto;
+    background: #cec9c9;
+    border-radius: 19px solid #000;
+    border-radius: 1px #000;
+    border-radius: 19px;
+    text-transform: none;
+    font-size: 19px;
+    font-weight: initial;
+    margin-top: 12px;
+
+}
+.button2 {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 29px;
+
+}
+ion-button.md.button.button-round.button-solid.ion-activatable.ion-focusable.hydrated[_ngcontent-rrt-c1] {
+    --background: auto;
+    background: #cec9c9;
+    border-radius: 19px solid #000;
+    border-radius: 1px #000;
+    border-radius: 19px;
+    margin-block-start: 3px;
+    margin-block-end: 21px;
+}
+.modal-backdrop.in {
+    opacity: -0.5;
+}
+
+.header-md:after {
+   
+    background: none !important;
+    }
+    .new_participent_background {
+    --background: auto;
+    
+    background: #f2fbfd;
+    }
+    .new_particpant_field
+    {
+    font-size: 9px;
+    color: #a6abab;
+}
+.Save_btn {
+    --background: auto;
+    background: linear-gradient(to right, #23af9e, #3572c1);
+    border-radius: 25px;
+    border-radius: 25px;
+    padding: 0px 3px 0px 0px;
+    width: 73%;
+        font-size: 13px;
+
+}
+
+.Save_btn1{
+    --background: auto;
+    background: linear-gradient(to right, #23af9e, #3572c1);
+    border-radius: 25px;
+   padding: 0px 0px 0px 0px;
+       width: 73%;
+           font-size: 13px;
+
+    height: 33px;
+}
+.modal-content_new {
+    background: linear-gradient(to bottom, #5ae64e, #2cbdca);
+    color: #fff;
+    text-align: center;
+}
+.check_new {
+    width: 113px;
+        width: 113px;
+    margin-top: 67px;
+    margin-bottom: 47px;
+}
+.btn_new {
+    width: 31%;
+    padding: 9px 0px 9px 0px;
+    margin-bottom: 4px;
+    background: #24d9d2;
+    border: 1px solid #06b9b2;
+}

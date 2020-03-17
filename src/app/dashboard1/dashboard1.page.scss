@@ -1,0 +1,253 @@
+ion-toolbar.in-toolbar {
+  --background: auto;
+  background-image: url("../../assets/images/MaskGroup\ _1.png");
+
+  text-align: center;
+  padding: 14px 0px 95px 15px;
+  color: #fff;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.top-header h3 {
+  font-weight: normal;
+  font-size: 17px;
+  margin-top: 25px;
+}
+img.back-arrow {
+  float: left;
+}
+p.artioport {
+  margin: 0px;
+}
+p.date {
+  font-size: 9px;
+}
+
+.dashboard1 {
+  position: absolute;
+  top: 117px;
+  z-index: 9999;
+  width: 90%;
+  margin: auto !important;
+  left: 5%;
+}
+ion-grid.checkin {
+  padding: 8px 10px 5px;
+}
+.loader_div {
+  float: left;
+  width: 30%;
+}
+img.loader {
+  width: 70px;
+}
+.right_load {
+  float: left;
+  width: 70%;
+}
+ion-label.check-iin {
+  color: #3a9da0;
+  font-size: 11px;
+}
+ion-label.box1_txt {
+  font-size: 29px;
+  color: #28a286;
+  font-weight: bold;
+}
+ion-card.box2grid {
+  padding: 21px 18px 9px;
+  box-shadow:0px 17px 20px #dae2e4;
+}
+ion-label.waalk_txt {
+  color: #34a2a5;
+  margin-left: 3px;
+  vertical-align: middle;
+  font-size: 11px;
+}
+ion-label.box1_txt {
+  float: right;
+  padding-right: 9pxs}
+.number_box span {
+  position: absolute;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  background: #e7b000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-weight: bold;
+  top: 7px;
+}
+.number_box {
+  position: relative;
+  display: inline-block;
+  float: left;
+    width: 100%;
+}
+.number_box img {
+  padding-top: 0px;
+}
+ion-label.box1_txt2 {
+  float: right;
+  padding-right: 0px;
+  color: #28a286;
+  font-size: 29px;
+  font-weight: bold;
+}
+.number_box.two_colm span {
+  color: #fff;
+  font-weight: bold;
+  bottom: -20px;
+  top: auto;
+}
+ion-col.load.md.hydrated {
+  display: inline-block;
+  position: relative;
+}
+.loader_div span {
+  position: absolute;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  background: #e7b000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-weight: bold;
+  top: 7px;
+}
+
+ion-col.load {
+  display: inline-block;
+  position: relative;
+}
+
+span.number_bix2 {
+  position: absolute;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  background: #e7b000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-weight: bold;
+  top: 7px;
+}
+.date {
+  text-align: center;
+}
+img.rectangle {
+  padding-top: 19px;
+  width: 13px;
+  margin-left: 19px;
+}
+img.graph_img {
+  width: 63%;
+  margin-left: 42px;
+  height: 91%;
+}
+ion-card.graph_box {
+  height: 23%;
+}
+ion-col.graph_value {
+  padding: 0px 0px 0px 37px;
+}
+h6.graph_dynamic {
+  margin-left: -28px;
+  font-size: 12px;
+  margin-top: 2px;
+  color: #31a286;
+}
+h6.graph_dynamic1 {
+  margin-left: 4px;
+  font-size: 12px;
+  margin-top: 3px;
+  color: #31a286;
+}
+h6.graph_dynamic2 {
+  margin-left: -48px;
+  font-size: 12px;
+  margin-top: 2px;
+  color: #31a286;
+}
+h6.graph_dynamic3 {
+  margin-left: -66px;
+  font-size: 12px;
+  margin-top: 2px;
+  color: #31a286;
+}
+h6.graph_dynamic4 {
+  margin-left: -82px;
+  font-size: 12px;
+  margin-top: 2px;
+  color: #31a286;
+}
+ion-card {
+  box-shadow: 0px 12px 15px  #dae2e4;
+  // padding-bottom: 15%;
+
+}
+.card2 {
+  // margin-top: 60px;
+  padding: 0px 20px 0px;
+}
+.card3 {
+  /* margin-top: 75px; */
+  padding: 0px 16px 23px;
+}
+.break_card {
+  padding: 0px 16px 23px;
+}
+img.walk-img {
+  width: 22px;
+}
+.header-md:after {
+  background-image: none !important;
+}
+
+.box1_txt1 {
+  float: right;
+  color: #28a286;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 0px 9px 0px 0px;
+}
+.breakdown {
+  margin-bottom: auto;
+  color: #28a285;
+  margin-left: 9px;
+}
+
+h6.dash1_date {
+    font-size: 11px;
+    float: right;
+    /* margin-right: 17px; */
+    margin-top: 20px;
+}
+.artioport {
+  margin-top: 0px;
+}
+
+
+.top-header {
+  margin-top: 34px;
+}
+.mainbox {
+  display: inline-block;
+}
+.number_box.two_colm {
+  width: 65%;
+}
+.footer_main img {
+  display: block;
+  margin: auto;
+}
+.break_card .box2grid_brkdwn {
+  padding-bottom: 25px;
+}

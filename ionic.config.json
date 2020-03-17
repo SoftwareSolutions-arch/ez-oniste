@@ -1,0 +1,8 @@
+{
+  "name": "Ez-Onsite",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

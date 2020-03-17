@@ -1,0 +1,34 @@
+<ion-content class="inner_containter home_title">
+  <div class="ion-padding">
+    <ion-img class="login-logo" src="/assets/images/ez_onsite_white_logo.png"></ion-img>
+    <form class="lodin-form">
+      <ion-card class="loginfield">
+        <div class="card-title ">
+          <ion-input class="mail_img" inputmode="email" placeholder="Email">
+            <ion-img class="mailwidth" src="/assets/images/Mail.png"></ion-img>
+          </ion-input>
+        </div>
+      </ion-card>
+      <ion-card class="loginfield">
+              <div class="card-title">
+          <ion-input  class="mail_img"  type="password" inputmode="password" placeholder="Password">
+            <ion-img class="mailwidth" src="/assets/images/Lock.png"></ion-img>
+          </ion-input>
+        </div>
+      </ion-card>
+
+      <div class="forgetbtn" [routerLink]="['/select-events']">
+        <ion-button class="button_forget" expand="block">
+          <strong class="signtext">LOGIN</strong>
+        </ion-button>
+      </div>
+    </form>
+   
+  </div>
+  <div class="">
+    <ion-title class="bottom-logo">
+      <ion-label class="login_page_logo">Powered by</ion-label>
+      <ion-img class="logo-bottom" src="/assets/images/actioport_logo_2.png"></ion-img>
+    </ion-title>
+  </div>
+</ion-content>

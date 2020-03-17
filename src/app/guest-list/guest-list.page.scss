@@ -1,0 +1,145 @@
+
+
+.top-header {
+    background-image: url('/assets/images/Mask_Group_2.png');
+    // background-image: -webkit-gradient(linear, left top, left bottom, from(#376dc4), to(#2bba9a));
+    // background-image: linear-gradient(#376dc4, #2bba9a);
+    
+    text-align: center;
+    padding: 4px 14px 90px 20px;
+    color: #fff;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+ion-input{
+    width: 80%;
+    margin: 30px auto 0px;
+    background: #fff;
+    color: #333;
+    max-width: initial;
+    border-radius: 20px;
+    box-shadow: 0px 1px 4px #7d7d7d;
+    height: 35px;
+}
+.top-header h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 25px;
+    text-align: center;
+
+
+}
+img.back-arrow {
+    float: left;
+    margin-top: 30px;
+
+
+}
+.card1 {
+    background: linear-gradient(to bottom, #2bba9a, #376dc4);
+    width: 44%;
+    /* float: left; */
+    box-shadow: 0px 5px 13px 1px #4bf0c2;
+    /* margin-left: 30px; */
+    margin: 3%;
+    display: inline-block;     
+}
+img.circle_chekc {
+    width: 51px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 8px;
+}
+ion-card.casrd2{
+    background: #fff;
+    width: 44%;
+    box-shadow: 0px 5px 13px 1px #4bf0c2;
+    margin: 3%;
+
+    display: inline-block;
+}
+.para {
+    /* display: block; */
+    /* margin: 0 auto; */
+    text-align: center;
+    color: #fff;
+}
+
+p.allan2 {
+    font-size: 7px;
+}
+p.allan1 {
+    font-size: 12px;
+}
+p.allan {
+    font-size: 15px;
+}
+.para1 {
+    /* display: block; */
+    /* margin: 0 auto; */
+    text-align: center;
+    color: #3333338c;
+}
+img.plus_img {
+    width: 60px;
+    /* float: right; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.guest {
+    position: relative;
+        --background: auto;
+    background: #f2fbfd;
+}
+.search {
+  width: 83%;
+    margin: 13px auto 11px;
+    background: #fff;
+    color: #333;
+    max-width: initial;
+    border-radius: 20px;
+    box-shadow: 0px 1px 4px #7d7d7d;
+    height: 23px;
+}
+img.searcimg {
+    width: 15px;
+    margin-left: 14px;
+}
+.circle_box {
+    display: inline-flex;
+}
+.organisation {
+    margin: 0px 9px 10px;
+    border-bottom: 1px solid #fff;
+
+}
+
+.search {
+    text-align: left !important;
+}
+ion-card.card1_allan {
+    background: linear-gradient(to bottom, #2bba9a, #376dc4);
+    width: 44%;
+    box-shadow: 0px 5px 13px 1px #4bf0c2;
+    margin: 3%;
+    display: inline-block;
+
+}
+.card1_allan.ios.hydrated {
+    background: linear-gradient(to bottom, #2bba9a, #376dc4);
+    width: 44%;
+    box-shadow: 0px 5px 13px 1px #4bf0c2;
+    margin: 3%;
+    display: inline-block;
+    height: 25vh;
+}
+.alert-wrapper{
+   background: none;
+    height:none ;
+}
+.sort {
+    margin-top: 11px;
+    }

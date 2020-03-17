@@ -1,0 +1,49 @@
+<ion-content class="guest">
+  <div class="top-header">
+    <img class="back-arrow" src="../../assets/images/Symbol 135 - 3.png" [routerLink]="['/login']">
+    <h3>Guest List</h3>
+    <div class="header-box">
+      
+      <ion-input class="search" placeholder="Search by Name">
+        <img class="searcimg" src="../../assets/icon/Symbol 62 – 6.png">
+      </ion-input>
+
+      <ion-input   class="search" placeholder="Search by organisation">
+        <img class="searcimg" src="../../assets/icon/Symbol 62 – 6.png">
+
+      </ion-input>
+      <div class="circle_box">
+        <span class="sort"> sort by</span>
+      <!-- <p class="organisation">Organisation(A-Z)</p> -->
+
+        <ion-select class="organisation" value="Organisation(A-Z)">
+          <ion-select-option  class="guest_dropwn" value="Organisation(A-Z)">Organisation(A-Z)</ion-select-option>
+          <ion-select-option  class="guest_dropwn" value="Organisation(A-Z)">Organisation(A-Z)</ion-select-option>
+          <ion-select-option  class="guest_dropwn" value="Name(A-Z)">Name(A-Z)</ion-select-option>
+          <ion-select-option  class="guest_dropwn" value="Name(Z-A0">Name(Z-A0)</ion-select-option>
+        </ion-select>
+
+    </div>
+    </div>
+  </div>
+<ion-card class="card1_allan">
+  <img  class="circle_chekc" src="../../assets/icon/Symbol 141 – 1.png">
+  <div class="para">
+ <p class="allan" >Allan Tanekura</p>
+ <p class="allan1" >Actioport Pte. Ltd.</p>
+ <p class="allan2" >Check-in 21:04 on 01/02/2020</p>
+</div>
+</ion-card>
+
+<ion-card class="casrd2 "  [routerLink]="['/registration']">
+  <img  class="circle_chekc" src="../../assets/icon/Symbol 141 – 21.png">
+  <div class="para1">
+
+  <p class="allan" >Nicholas Yeo Ming Han </p>
+  <p class="allan1" >Actioport Pte. Ltd.</p>
+  <p class="allan2" >Not Check-in yet</p>
+  </div>
+</ion-card>
+<img class="plus_img" src="../../assets/icon/+.png" [routerLink]="['/new-participant']">
+  </ion-content>
+  <app-footer></app-footer>

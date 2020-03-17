@@ -1,0 +1,116 @@
+.top-header h3 {
+  font-weight: normal;
+  font-size: 15px;
+  margin: 0 auto;
+  display: inline-block;
+}
+img.back-arrow {
+  float: left;
+}
+.in-toolbar {
+  --background: auto;
+  background-image: url("../../assets/icon/MaskGroup2.png");
+  border-bottom-left-radius: 54px;
+  border-bottom-right-radius: 54px;
+  text-align: center;
+  padding: 20px 15px 145px 15px;
+  color: #fff;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+p.heading {
+  color: #000000b0;
+  font-size: 13px;
+}
+.card_box_msg {
+  position: absolute;
+  top: 88px;
+  right: 0;
+  left: 0px;
+  z-index: 99;
+  margin: 16px !important;
+  border-radius: 12px;
+  box-shadow: 0px 21px 23px 4px #d8e1e2;
+  padding: 12px 0px 12px;
+}
+.badge_box_main {
+  padding: 0px 16px;
+  width: 65%;
+}
+.badege_txt1 {
+  margin-left: 4px;
+  font-size: 11px;
+}
+.badege_txt {
+  font-size: 11px;
+}
+img.img_upload {
+  width: 140px;
+}
+.card_box_msg1 {
+  margin: 93px 24px 0px;
+  box-shadow: 0px 21px 23px 4px #d8e1e2;
+  padding: 12px 0px 12px;
+}
+.badge_box {
+  margin-bottom: 8px;
+}
+.input_color {
+  border-bottom: 1px solid #c4c4c4;
+  font-size: 10px;
+  margin-right: 8px;
+}
+
+.print_btn {
+  width: 90%;
+  margin: 40px auto 20px;
+  display: block;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#376dc4),
+    to(#2bba9a)
+  );
+  background: linear-gradient(to right, #376dc4, #2bba9a) !important;
+  --background: auto;
+  border-radius: 20px;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: center;
+  height: 7vh;
+}
+.print_btn img {
+  width: 25px;
+  margin-left: 20px;
+}
+img.print_img {
+  width: 23px;
+  margin: 3px 0px 7px 25px;
+}
+.loading_qr {
+  float: right;
+  width: 30px;
+  margin-right: 4px;
+  padding: 58px 3px 0px 0px;
+}
+.loading_qr {
+  float: right;
+  width: 30px;
+  margin-right: 10px;
+  /* padding-bottom: 94px; */
+  padding: 0px 0px 6px 2px 34px;
+  padding-top: 54px;
+}
+.new_participent_background {
+  --background: auto;
+
+  background: #e1e8ea;
+}
+.header-md:after {
+  background-image: none !important;
+}
+.background {
+  width: 100%;
+}

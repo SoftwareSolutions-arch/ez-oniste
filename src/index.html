@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>Ionic App</title>
+
+<base href="/" />
+
+<meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+
+<link rel="icon" type="image/png" href="assets/icon/favicon.png" />
+
+<!-- add to homescreen for ios -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+</head>
+<style>
+	button.popup_btn {
+    background: transparent;
+    width: 100%;
+}
+.modal-dialog1 {
+    position: relative;
+    width: 100%;
+    /* margin: 10px; */
+    display: block;
+    padding: 31px 30px 0px 30px;
+}
+/* .alert-wrapper.sc-ion-alert-md {
+background: linear-gradient(to bottom, #43eb4d 13%, #3fbfc6) !important;
+height: 64% !important;
+} */
+/* .alert-head.sc-ion-alert-md {
+padding: 181px 29px 28px;
+
+} */
+
+/* .alert-head.sc-ion-alert-md {
+padding: 197px 18px 23px 40px;
+background-image: url(/assets/images/Lock.png);
+background-repeat: no-repeat;
+margin-left: 80px;
+background-size: 55%;
+background-position: left;
+} */
+.alert-head.sc-ion-alert-md h2#alert-1-hdr {
+margin-left: -87px;
+color: #fff;
+font-size: 20px;
+}
+.alert-title.sc-ion-alert-md {
+font-size: 17px;
+font-weight: unset;
+
+}
+.alert-sub-title.sc-ion-alert-md {
+font-size: 13px;
+margin-left: -30px;
+color: #ffff;
+padding-top: 20px;
+}
+button.alert-button.ion-focusable.ion-activatable.sc-ion-alert-md {
+background: #47d9d2;
+padding-left: 0px;
+width: 34%;
+color: antiquewhite;
+
+padding-right: 31px;
+}
+.alert-button-group.sc-ion-alert-md {
+margin-left: -73px;
+}
+.alert-head.sc-ion-alert-md + .alert-message.sc-ion-alert-md {
+padding-top: 0;
+color: #fff;
+margin-left: 31px;
+}
+
+.modal-backdrop {
+  position: initial  ; 
+}
+</style>
+<body>
+<app-root></app-root>
+</body>
+
+</html>
+<script>
+$('.nav-pills li ').click( function(){
+if ( $(this).hasClass('active') ) {
+$(this).removeClass('active');
+} else {
+$('.active').removeClass('active');
+$(this).addClass('active');
+}
+});
+</script>

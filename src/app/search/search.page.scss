@@ -1,0 +1,123 @@
+.self_backgorund {
+    --background: auto !important;
+    background: linear-gradient(to right, #376dc4, #2bba9a) !important;
+    position: relative;
+
+}
+.multiple_option {
+    background: #0000005c;
+    padding: 26px 13px 26px;
+    border-radius: 75px;
+    width: 74%;
+    margin: 0 auto;
+    margin-top: 107px;
+
+}
+.search {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.name_txt {
+    color: #fff;
+}
+.ion-radio#female .name {
+  width: 23px;
+  height: 23px;
+  background: grey;
+  border-radius: 11px;
+  vertical-align: bottom;
+}
+.ion-radio#female {
+    vertical-align: text-bottom;
+  }
+  .name_txt {
+    color: #827d7d !important;
+        font-size: 22px !important;
+  }
+  .name_txt1 {
+    color: #fff !important;
+        font-size: 22px !important;
+  }
+  .search_bar{
+    margin-top: 74px;
+    /* text-align: center; */
+    font-size: 36px;
+    color: #fff;
+    margin: 0 auto;
+    display: table;
+    border-bottom: 1px solid #fff;
+}
+.second_section {    
+   
+    font-size: 28px;
+    color: white;
+    padding: 100px 0 0px 100px;
+}
+
+img.user_icn {
+    width: 87px;
+    margin-right: 97px;
+    margin-bottom: 24px;
+
+}
+
+.inpt_txt{
+    border-bottom: 7px solid #fff;
+    width: 85%;
+}
+.user_icn{
+    font-size: 52px;;
+}
+button.btn_cnfrm1 {
+ 
+    --background: auto;
+   
+     background: transparent;
+}
+.check_btn {
+    display: inline-block;
+    margin: 0px 7px 20px;
+    font-size: 25px;
+    color: #fff;
+    width: 46%;
+    border-radius: 42px;
+    border: 1px solid #fff;
+}
+.btn-ok4 {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    left: 7px;
+}
+button.btn_cnfrm {
+    padding: 18px 124px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 29px;
+    border: 1px solid #fff;
+    background: transparent;
+}
+.inpt_txt{
+    border-bottom: 7px solid #fff;
+    width: 85%;
+}
+.btn_cnfrm1 {
+
+    --background: auto;
+    width: 97%;
+    font-size: 22px;
+
+
+}
+.qr_img {
+    width: 37px;
+    margin-right: 21px;
+}
+img.screen_lock {
+    width: 25px;
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+}

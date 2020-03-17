@@ -1,0 +1,157 @@
+<ion-content class="qr_black_background">
+  <ion-header class="QR_CODE_HEADER">
+    <ion-toolbar>
+      <div class="top-header">
+        <img class="back-arrow" src="../../assets/images/Symbol 135 - 3.png" [routerLink]="['/setting']">
+
+        <h3>QR code Check-in</h3>
+      </div>
+
+      <div class="">
+      </div>
+
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="Qr-code_txt">
+    <p class="first_para">Point the camera at the QR code.It will scan automatically. </p>
+  </div>
+
+  <button type="button" class="popup_btn" data-toggle="modal" data-target="#myModal" (click)="data1()">
+    <img class="QR_Code_mg" src="../../assets/icon/Group1942.png"></button>
+
+  <div class="Qr-code_txt">
+    <p class="first_para">If you cannot scan, please try those; </p>
+    <span class="ol_txt">
+      <span>1.Make the display brighter</span><br>
+      <span>2.Enlarge the QR code size</span>
+    </span>
+  </div>
+
+  <!-- Button to Open the Modal -->
+  <!-- Button to Open the Modal -->
+
+
+  <!-- The Modal -->
+  <div *ngIf=checkinpopup class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <img class="check" src="../../assets/icon/Checkbox.png">
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          Check-in completed !
+
+        </div>
+
+        <div class="modal-body1">
+          <p class="para1">Nicholas Yew Ming han </p>
+          <p class="para2">Actioport Pte. Ltd. </p>
+          <p class="para3">Web Developer </p>
+          <p class="para4">Table 8 </p>
+
+        </div>
+        <div class="btn-ok">
+          <!-- Button trigger modal -->
+          <button type="button" (click)="pop();" class="btn_ok_btn" data-toggle="modal"
+            data-target="#basicExampleModal">
+            Ok
+          </button>
+
+          <!-- Modal -->
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- modal 1  end -->
+  <!-- modal 2  start -->
+  <div *ngIf=alreadycheckinpopup class="modal fade" id="basicExampleModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- Modal Header -->
+        <img class="check" src="../../assets/icon/Symbol 71 – 4.png">
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          You already check-in
+
+        </div>
+        <p class="date">at 21:04 on 01//02/2020</p>
+        <div class="modal-body1">
+          <p class="para1">Allan Tanekura </p>
+          <p class="para2">Actioport Pte. Ltd. </p>
+          <p class="para3">CEO </p>
+          <p class="para4">Table 1 </p>
+
+        </div>
+        <div class="btn-ok">
+          <!-- Button trigger modal -->
+          <button type="button" (click)="pop1();" class="btn_ok_btn" data-toggle="modal"
+            data-target="#basicExampleModal3">
+            Close
+          </button>
+
+          <!-- Modal -->
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- modal 2 end -->
+
+  <!-- modal 3  start -->
+  <div *ngIf=notfoundpopup class="modal fade" id="basicExampleModal3">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- Modal Header -->
+        <img class="check" src="../../assets/icon/Symbol 71 – 4.png">
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          Not Found !
+
+        </div>
+
+        <div class="modal-body1">
+          <p>Please Contact our staffs </p>
+
+
+        </div>
+        <div class="btn-ok">
+          <!-- Button trigger modal -->
+          <button type="button" (click)="pop2();" class="btn_ok_btn" data-toggle="modal"
+            data-target="#basicExampleModal">
+            Ok
+          </button>
+
+          <!-- Modal -->
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- modal 3 end -->
+  <a>
+    <img class="loading_qr" src="../../assets/icon/Group _886.png">
+  </a>
+
+</ion-content>
+
+<app-footer></app-footer>

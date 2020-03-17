@@ -1,0 +1,97 @@
+.in-toolbar {
+        --background: auto;
+    background-image: url('../../assets/images/MaskGroup\ _1.png');
+    /* border-bottom-left-radius: 54px; */
+    /* border-bottom-right-radius: 54px; */
+    text-align: center;
+    padding: 13px 0px 97px 15px;
+    color: #fff;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.top-header h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin: 9px auto;
+    display: inline-block;
+}
+img.back-arrow {
+    float: left;
+    margin: 10px auto;
+    display: inline-block;
+
+}
+
+.check_in_box {
+   position: absolute;
+    top: 82px;
+    z-index: 9999;
+    width: 97%;
+    margin: auto !important;
+    left: 2%;
+}
+img.check_in_img {
+    float: left;
+    padding-left: 20px;
+}
+// .check_in_box ion-row.box1.md.hydrated {
+//        padding: 22px 13px 23px;
+
+// }
+.card2 {
+    padding: 0px 0px 10pxss;
+
+}
+
+.waalk_txt {
+    color: #34a2a5;
+    margin-left: 20px;
+    vertical-align: top;
+    font-size: large;
+
+
+
+}
+ion-header {
+    position: unset;
+}
+.ion-card {
+ box-shadow: 0px 5px 35px #ccc;
+  
+    border-radius: 13px;
+}
+.ion-card {
+    box-shadow: 0px 5px 35px #ccc;
+    padding-bottom: 4%;
+        border-radius: 13px;
+
+}
+img.print_img {
+    float: right;
+    margin-right: 14px;
+    width: 20px;
+
+
+}
+img.wal_icon {
+        width: 24px;
+    margin-right: 8px;
+}
+.new_participent_background {
+    --background: auto;
+    
+    background: #f2fbfd;
+    }
+.walk_txt{
+    font-size: 10px;
+}
+ion-card{
+    border-radius: 11px;
+        padding: 16px 0px 16px 7px;
+
+}
+.Card2{
+    border-radius: 11px;
+    padding: 24px 0px 24px 7px;
+}

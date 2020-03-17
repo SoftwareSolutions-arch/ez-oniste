@@ -1,0 +1,26 @@
+.top-header h3 {
+    font-weight: normal;
+    font-size: 19px;
+    margin: 0 auto;
+    display: inline-block;
+}
+img.back-arrow {
+    float: left;
+}
+.in-toolbar.md.hydrated {
+    --background: auto;
+    background-image: url('../../assets/images/MaskGroup\ _1.png');
+    border-bottom-left-radius: 54px;
+    border-bottom-right-radius: 54px;
+    text-align: center;
+    padding: 20px 15px 145px 15px;
+    color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+p.heading {
+    color: #000000b0;
+        font-size: 13px;
+
+}

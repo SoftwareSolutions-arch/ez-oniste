@@ -1,0 +1,221 @@
+.top-header h3 {
+       font-weight: normal;
+    font-size: 17px;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  img.back-arrow {
+    float: left;
+  }
+  .in-toolbar {
+    --background: auto;
+    background-image: url("../../assets/images/MaskGroup\ _1.png");
+    border-bottom-left-radius: 54px;
+    border-bottom-right-radius: 54px;
+    text-align: center;
+    padding: 83px 15px 52px 15px;
+    color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  p.heading {
+    color: #000000b0;
+    font-size: 13px;
+  }
+  .QR_CODE_HEADER {
+    position: unset !important;
+}
+
+.header-md:after {
+
+  background: none;
+
+}
+.qr_black_background {
+  --background: #090909;
+}
+.Qr-code_txt {
+  color: #fff;
+  text-align: center;
+  margin: 17px 45px 0px;
+
+}
+.QR_Code_mg {
+  width: 245px;
+  margin: 0 auto;
+  display: block;
+}
+.first_para {
+      font-size: 11px;
+
+}
+.ol_txt {
+  font-size: 11px;
+}
+.loading_qr {
+  width: 24px;
+  /* float: none; */
+  /* bottom: 77px; */
+  margin: 0 auto;
+  display: block;
+  padding-top: 20px;
+
+}
+button.popup_btn {
+  background: transparent;
+  margin: 0 auto;
+  display: block;
+}
+.modal-dialog{
+  top: 50%;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  transform: translate(-50%, -50%) !important;
+  left: 40%;
+
+}
+.popup_btn:focus{
+  border:none;
+  outline:none;
+}
+div#myModal {
+  overflow: hidden;
+}
+.modal-content {
+  /* background-color: #fff; */
+  overflow: hidden;
+
+  background: linear-gradient(to bottom, #43eb4d 13%, #3fbfc6) !important;
+}
+
+.check {
+  width: 60px;
+  margin: 0 auto;
+  display: block;
+      padding: 46px 0px 7px;
+
+}
+.modal-body1 {
+  text-align: center;
+  color: #fff;
+}
+.modal-body {
+  position: relative;
+  padding: 15px 0px 31px 10px;
+  text-align: center;
+  font-size: 23px;
+  color: #fff;
+}
+.btn-ok {
+  padding-bottom: 46px;
+}
+button.btn_ok_btn {
+ width: 31%;
+    padding: 10px 0px 11px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #3fcaa8;
+    background: #47d9d2;
+    position: absolute;
+    bottom: 11px;
+    font-size: 9px;
+    font-weight: 700;
+    right: 35%;
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 1px solid #fff;
+    box-shadow: 18px 0px 13px #3dc0bb;
+}
+#basicExampleModal .modal-content {
+  background: linear-gradient(to bottom, #ef212f 13%, #521fb8) !important;
+}
+
+img#exampleModalLabel {
+  margin: 0 auto;
+  display: block;
+  width: 54px;
+  margin-top: 27px;
+}
+.modal-header {
+  border-bottom: none;
+}
+
+p.date {
+  color: #fff;
+  margin: 0 auto;
+  display: table;
+  padding-bottom: 17px;
+
+}
+#basicExampleModal button.btn_ok_btn {
+  
+  width: 31%;
+    padding: 13px 0px 14px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #ab4cde;
+    background: #ab4cde;
+    border-radius: 4px;
+    color: #fff;
+    width: 31%;
+    padding: 12px 0px 11px 19px;
+    /* margin: 0 auto; */
+    display: block;
+    border: 1px solid #ab4cde;
+    position: absolute;
+    bottom: 11px;
+    font-size: 9px;
+    text-align: center;
+    font-weight: 700;
+    /* right: 99px; */
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 1px solid #fff;
+    box-shadow: 18px 0px 0px #ab4cde;
+}
+  #basicExampleModal .check{
+    width: 57px;
+    margin: 0 auto;
+    display: block;
+}
+#basicExampleModal3 button.btn_ok_btn {
+ width: 31%;
+    padding: 13px 0px 14px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #ab4cde;
+    background: #ab4cde;
+    border-radius: 4px;
+    color: #fff;
+    width: 31%;
+    padding: 12px 0px 11px 19px;
+    /* margin: 0 auto; */
+    display: block;
+    border: 1px solid #ab4cde;
+    position: absolute;
+    bottom: 11px;
+    font-size: 9px;
+    text-align: center;
+    font-weight: 700;
+    /* right: 99px; */
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 1px solid #fff;
+    box-shadow: 18px 0px 0px #ab4cde;
+}
+  #basicExampleModal3 .check{
+    width: 57px;
+    margin: 0 auto;
+    display: block;
+}
+#basicExampleModal3 .modal-content {
+  background: linear-gradient(to bottom, #ef212f 13%, #521fb8) !important;
+}
+div#background-content {
+    position: relative;
+}
+.modal-dialog.modal-lg {
+    position: relative;
+}

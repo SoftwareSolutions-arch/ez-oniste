@@ -1,0 +1,74 @@
+
+<ion-content class="self_backgorund">
+  <div class="multiple_option">
+    <div class="search">
+      <ion-label class="search_box">Search By</ion-label>
+    </div>
+    <ion-radio-group>
+      <!-- <ion-item> -->
+      <ion-radio class="name" value="Name" name="name" id="name"></ion-radio>
+      &nbsp;&nbsp;
+      <ion-label class="name_txt1" for="name">Name</ion-label>
+      &nbsp;&nbsp;
+      <ion-radio value="org" id="org"></ion-radio> &nbsp;&nbsp;
+      <ion-label class="name_txt" for="org ">Organisation</ion-label>
+
+      <ion-radio value="email" id="email"></ion-radio> &nbsp;&nbsp;
+      <ion-label class="name_txt" for="email ">Email </ion-label>
+
+      <ion-radio value="mob" id="mob"></ion-radio> &nbsp;&nbsp;
+      <ion-label class="name_txt" for="Mobile ">Mobile</ion-label>
+      <ion-radio value="id" id="id"></ion-radio> &nbsp;&nbsp;
+      <ion-label class="name_txt" for="id ">ID</ion-label>
+      <!-- </ion-item> -->
+    </ion-radio-group>
+
+  </div>
+
+  <!-- 
+  <div class="img_srch">
+  <img class="searc_img" src="../../assets/icon/Path 99.png">
+</div>
+<div class="search_bar">
+  <ion-input value="Please search your name"></ion-input>
+</div> -->
+  <ion-row class="second_section">
+    <ion-col>
+      <div class="first_name">
+        <ion-label>
+          <div class="last_name_sec">
+            <ion-input class="inpt_txt" placeholder="Please search your name">
+              <img class="user_icn" src="../../assets/icon/Symbol 62 – 19.png">
+            </ion-input>
+          </div>
+        </ion-label>
+      </div>
+    </ion-col>
+  </ion-row>
+
+
+
+  <div _ngcontent-kot-c1="" class="row">
+    <div _ngcontent-kot-c1="" class="btn-ok4">
+      <div _ngcontent-kot-c1="" class="check_btn" [routerLink]="['/self-check-in']">
+
+        <ion-button class="btn_cnfrm1">
+          <img class="qr_img" src="../../assets/icon/Group93.png">
+          QR code Check-in
+        </ion-button>
+      </div>
+      <div _ngcontent-kot-c1="" class="check_btn" [routerLink]="['/self-check-in-kiosk']">
+
+        <ion-button class="btn_cnfrm1">
+          <img class="qr_img" src="../../assets/icon/whitic_directions_walk_24px.png">
+        Walk-in Registration
+        </ion-button>
+      </div>
+    </div>
+  </div>
+  <ion-row>
+
+      <img class="screen_lock" src="../../assets/images/Lock.png" >
+
+  </ion-row>
+</ion-content>

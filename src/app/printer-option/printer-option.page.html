@@ -1,0 +1,67 @@
+<ion-content>
+  <ion-card class="first_section">
+    <ion-row class="header_area">
+      <ion-col size="4">
+        <div class="cancel_head" [routerLink]="['/badge-setting1']" >
+          <p> Cancel</p>
+        </div>
+      </ion-col>
+      <ion-col size="4">
+        <div class="printer_head">
+          <p>Printer Options</p>
+        </div>
+      </ion-col>
+      <ion-col size="4">
+        <div class="print_head">
+          <p>Print</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <ion-card class="second_section">
+    <ion-row class="second_area">
+      <ion-col size="6">
+        <div>
+          <p class="printing_sec">Printer</p>
+        </div>
+      </ion-col>
+      <ion-col size="6">
+        <div class="select_option">
+          <ion-label class="option_print">Select Printer</ion-label>         
+          <img class="arrow_icn" src="../../assets/icon/arrow-print.png">
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row class="third_area">
+      <ion-col size="6">
+        <ion-label class="printing_sec">1 Copy</ion-label>
+      </ion-col>
+      <ion-col size="6" >
+        <div class="decrement_btn" [routerLink]="['/badge-setting1']">
+          <ion-button class="btn_one">
+            <ion-icon class="decrement_icn" name="remove-outline"></ion-icon>
+          </ion-button>      
+          <ion-button class="btn_two">
+            <ion-icon class="add_icn" name="add-outline"></ion-icon>
+          </ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <ion-card class="third_section">
+    <ion-row>
+      <ion-col size="8">
+        <div class="content_area">
+          <h2>Nicholas Yeo Ming Han</h2>
+          <p>Actioport Pte.Ltd.</p>
+          <p>Web Developer</p>
+        </div>
+      </ion-col>
+      <ion-col size="4">
+        <div class="code_sec" [routerLink]="['/badge-setting1']">
+          <img class="barcode_section" src="../../assets/icon/barcode-print.png">
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>
